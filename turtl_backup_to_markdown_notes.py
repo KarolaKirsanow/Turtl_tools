@@ -59,13 +59,13 @@ for line in input_lines:
         output_path = os.path.join(args.output_dir, output_filename)
 
     # open the output file:
-        #print("extracting file: {0}".format(output_path))
+        print("extracting file: {0}".format(output_path))
 
-        #with open(output_path, 'w') as output_file:
-            #output_file.write("{0}\n".format(title) + "{0}\n".format(decoded_line))
+        with open(output_path, 'w') as output_file:
+            output_file.write("{0}\n".format(title) + "{0}\n".format(decoded_line))
             
 
         
 
 
-###run with python3 new_splitfile.py -i input-file.txt -o ./output-folder/ 
+###run with python3 turtl_backup_to_markdown_notes.py -i input-file.txt -o ./output-folder/ 

@@ -1,2 +1,2 @@
 # Turtl_tools
-tools to assist with import and export of nots to the Turtl program
+tools to assist with import and export of notes to the Turtl program

@@ -40,7 +40,7 @@ with open(args.input_file, 'r') as input_file:
 # create list iterator to iterate through the input data by line:
 input_lines = iter(input_data.splitlines())
 
-#find text and title of each note:
+#find text and title of each note (and print to terminal):
 for line in input_lines:
     if start_delimiter in line:
         
